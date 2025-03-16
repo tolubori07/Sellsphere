@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: cheorcy;
+  src: url('../public/Cheorcy-axmaJ.otf');
+}
+@font-face {
+  font-family: sora;
+  src: url('../public/Sora-Regular.ttf');
+}
+.bigtext{
+    -webkit-text-stroke-width: 0.5px; 
+    font-family:cheorcy;
+}
+
+
+
+body{
+height: 100vh;
+font-family: Sora;
+}
+button {
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+input{
+color:black;
+}
+
