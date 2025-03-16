@@ -1,5 +1,5 @@
 import axios from 'axios'
-const Bag_url = 'http://localhost:8000/api/bag'
+const Bag_url = 'https://sellsphere-zs5k.onrender.com/api/bag'
 const getBag = async(token)=>{
  try {
   const config ={

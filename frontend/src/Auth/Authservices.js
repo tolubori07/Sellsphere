@@ -2,7 +2,7 @@
 //import { atom, useAtom} from 'jotai';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/users';
+const API_URL = 'https://sellsphere-zs5k.onrender.com/api/users';
 
 
 export const login = async (userData) => {

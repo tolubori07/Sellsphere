@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const API_URL = 'http://localhost:8000/api/items'
+const API_URL = 'https://sellsphere-zs5k.onrender.com/api/items'
 
 const getItems=async(token)=>{
  try{
